@@ -1,0 +1,6 @@
+*.bak
+*.zip
+mydrone_tarot_gerber
+*.kicad_pcb-bak
+*.net
+*-cache.lib

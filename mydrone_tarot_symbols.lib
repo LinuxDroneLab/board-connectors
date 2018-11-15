@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# GY-521
+#
+DEF GY-521 U 0 40 Y Y 1 F N
+F0 "U" -150 150 50 H V C CNN
+F1 "GY-521" -50 300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -200 50 0 0 0 X Normal 0 C C
+T 900 -150 -250 50 0 1 0 Y Normal 0 C C
+S -600 350 400 -650 0 1 0 N
+P 3 0 0 0 -200 -250 -250 -300 -200 -350 N
+P 3 0 0 0 -100 -150 -50 -100 0 -150 N
+P 3 0 1 0 -250 -300 -50 -300 -50 -100 N
+X Vcc 1 -450 -850 200 U 50 50 1 1 I
+X GND 2 -350 -850 200 U 50 50 1 1 I
+X SCL 3 -250 -850 200 U 50 50 1 1 I
+X SDA 4 -150 -850 200 U 50 50 1 1 I
+X XDA 5 -50 -850 200 U 50 50 1 1 I
+X XCL 6 50 -850 200 U 50 50 1 1 I
+X AD0 7 150 -850 200 U 50 50 1 1 I
+X INT 8 250 -850 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# tarot_scheda_superiore
+#
+DEF tarot_scheda_superiore U 0 40 Y Y 1 F N
+F0 "U" 50 -200 50 H V C CNN
+F1 "tarot_scheda_superiore" 50 450 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -400 400 500 -300 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
